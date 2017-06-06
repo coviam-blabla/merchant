@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.coviam.blabla.entity.Merchant;
 
 @Repository
-public interface MerchantRepository extends CrudRepository<Merchant,String> {
+public interface MerchantRepository extends CrudRepository<Merchant,Long> {
 
 }

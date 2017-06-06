@@ -12,7 +12,7 @@ import javax.persistence.Table;
 public class Merchant implements Serializable{
 	@Id
 	@Column(name="merchant_id")
-	private int merchantId;
+	private long merchantId;
 	
 	public int getRatingCounter() {
 		return ratingCounter;
@@ -29,11 +29,11 @@ public class Merchant implements Serializable{
 		this.ratingCounter = ratingCounter;
 	}
 
-	public int getMerchantId() {
+	public long getMerchantId() {
 		return merchantId;
 	}
 
-	public void setMerchantId(int merchantId) {
+	public void setMerchantId(long merchantId) {
 		this.merchantId = merchantId;
 	}
 	public double getMerchantRating() {

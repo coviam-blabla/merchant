@@ -1,0 +1,12 @@
+com/coviam/blabla/BlablaApplication.class
+com/coviam/blabla/entity/Score.class
+com/coviam/blabla/entity/ScoreId.class
+com/coviam/blabla/dto/MerchantDTO.class
+com/coviam/blabla/dao/ScoreRepository.class
+com/coviam/blabla/dto/IdandRating.class
+com/coviam/blabla/dao/MerchantRepository.class
+com/coviam/blabla/dto/RatingList.class
+com/coviam/blabla/entity/Merchant.class
+com/coviam/blabla/service/MerchantService.class
+com/coviam/blabla/service/MerchantServiceInterface.class
+com/coviam/blabla/controller/MerchantController.class

@@ -80,13 +80,4 @@ public class Score implements Serializable{
 		return "Score [id=" + id + ", param1=" + param1 + ", param2=" + param2 + ", param3=" + param3 + ", param4="
 				+ param4 + ", param5=" + param5 + ", param6=" + param6 + ", calcScore=" + calcScore + "]";
 	}
-	}
-
-@Embeddable
-class ScoreId implements Serializable{
-	@Column(name="merchant_id")
-	int merchantId;
-	@Column(name="product_id")
-	int productId;
-}
-
+		}
